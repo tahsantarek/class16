@@ -1,0 +1,87 @@
+.header{
+    background-color: #101446;
+}
+.header img{
+    width: 100px;
+    height: auto;
+}
+.primary-menu ul{
+    margin-bottom: 0;
+    text-align: right;
+}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a{
+    display: block;
+    color: white;
+    padding: 0 30px;
+    line-height: 65px;
+    font-size: 18px;
+    margin-left: -5px;
+    text-decoration: none;
+    transition: .5s;
+}
+.primary-menu ul li a:hover{
+    background-color: #3498db;
+}
+/* banner */
+
+.banner{
+    background-image: url(./intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 0;
+}
+.banner h1{
+    color: white;
+    margin-bottom: 40px;
+}
+.banner p{
+    color: white;
+    margin-bottom: 40px;
+}
+.banner h4{
+    color: white;
+    background-color: #337ab7;
+    display: inline-block;
+    padding: 10px 15px;
+    
+}
+
+/* about */
+
+.about{
+    background-color: #c2d4ea;
+    height: 550px;
+    width: auto;
+}
+.about h1{
+    margin-bottom: 60px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+/* Contact */
+
+.contact{
+    background-color: #f5f5f5;
+}
+.contact h1 {
+    margin-bottom: 60px;
+    display: inline-block;
+    margin-top: 100px;
+}
+.submit{
+    background-color: #5bc0de;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 50px; 
+}
+
+.last{
+    background-color: #0062d3;
+    color: white;
+    padding: 15px 0;
+   
+}
